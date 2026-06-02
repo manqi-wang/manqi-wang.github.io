@@ -27,3 +27,8 @@ If the old PDF button already used `Manqi_Wang_Full_CV.pdf`, keeping this filena
 
 
 Update note: This version reduces the homepage name size and changes in-section subheadings / section labels from purple to black while keeping the main section titles in the UCL purple style.
+
+
+## Web-only revision
+
+This package updates the webpage (`index.html`) only. The PDF file is carried over unchanged so the existing Download PDF CV button remains valid. To keep the same URL, upload the new `index.html` to the existing GitHub Pages repository root and commit the change. Do not rename the repository or alter GitHub Pages settings.
