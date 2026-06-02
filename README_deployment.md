@@ -1,8 +1,18 @@
-# Manqi Wang — Full Academic CV Website
+# Manqi Wang Full Academic CV Website
 
-This is the logo-fixed GitHub Pages version.
+This folder is ready for GitHub Pages.
 
-Upload these files directly to the root of your GitHub repository:
+## Files
+
+- `index.html` — updated full academic CV webpage.
+- `Manqi_Wang_Full_CV.pdf` — PDF downloaded by the “Download PDF CV” button.
+- `.nojekyll` — keeps GitHub Pages from processing the site with Jekyll.
+
+## Update without changing the URL
+
+To keep the existing URL unchanged, do not rename the repository, do not change the GitHub Pages publishing source, and do not move the files into a subfolder.
+
+Upload these files directly to the root of the same GitHub repository:
 
 ```text
 index.html
@@ -11,24 +21,9 @@ Manqi_Wang_Full_CV.pdf
 README_deployment.md
 ```
 
-The UCL logo is embedded inside `index.html`, so it will not appear as a broken image if the separate logo file is missing.
+If the repository is already serving the site from `main` and `/ (root)`, replacing `index.html` and `Manqi_Wang_Full_CV.pdf` is enough. GitHub Pages will republish the same URL after the commit.
 
-The `Download PDF CV` button still depends on `Manqi_Wang_Full_CV.pdf`. Keep that file name unchanged unless you also edit the PDF link inside `index.html`.
+If the old PDF button already used `Manqi_Wang_Full_CV.pdf`, keeping this filename means no link change is needed.
 
-Recommended repository name:
 
-```text
-cv
-```
-
-GitHub Pages settings:
-
-```text
-Settings → Pages → Deploy from a branch → main → / (root) → Save
-```
-
-Recommended temporary URL:
-
-```text
-https://lius25641.github.io/cv/
-```
+Update note: This version reduces the homepage name size and changes in-section subheadings / section labels from purple to black while keeping the main section titles in the UCL purple style.
